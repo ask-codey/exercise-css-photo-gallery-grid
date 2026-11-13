@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- A drawing of Eagle Peak above a sea of clouds, standing in for a photo. Free to use. -->
+  <rect width="400" height="300" fill="#9cc9e8"/>
+  <polygon points="0,300 140,90 220,170 300,60 400,300" fill="#6b7a8f"/>
+  <polygon points="265,105 300,60 330,110 300,95" fill="#ffffff"/>
+  <polygon points="0,260 80,230 160,250 240,225 320,245 400,230 400,300 0,300" fill="#f2f6fa"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- A drawing of a ridge trail under an orange sunset, standing in for a photo. Free to use. -->
+  <rect width="400" height="300" fill="#f4a261"/>
+  <polygon points="0,0 400,0 400,120 0,160" fill="#e76f51"/>
+  <polygon points="230,150 270,150 270,190 230,190" fill="#ffd166"/>
+  <polygon points="0,300 0,200 100,170 200,190 300,150 400,180 400,300" fill="#5a3e5d"/>
+</svg>

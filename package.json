@@ -1,0 +1,12 @@
+{
+  "name": "exercise-css-photo-gallery-grid",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exercise code for Exercise: A Photo Gallery Grid in CSS in Depth on ask-codey.com",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.3"
+  }
+}

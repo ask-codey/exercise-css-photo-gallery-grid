@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- A drawing of Long Lake reflecting pine trees at sunrise, standing in for a photo. Free to use. -->
+  <rect width="400" height="300" fill="#f6c58f"/>
+  <polygon points="0,200 60,120 120,200 180,110 240,200 300,130 360,200 400,160 400,200" fill="#3f6b4f"/>
+  <polygon points="0,200 400,200 400,300 0,300" fill="#5b9bc4"/>
+  <polygon points="40,230 360,230 340,240 60,240" fill="#7fb4d6"/>
+</svg>

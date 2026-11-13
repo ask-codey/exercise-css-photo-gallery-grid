@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- A drawing of a meadow of wildflowers in morning mist, standing in for a photo. Free to use. -->
+  <rect width="400" height="300" fill="#e3e8ec"/>
+  <polygon points="0,120 400,100 400,170 0,180" fill="#cdd6dc"/>
+  <polygon points="0,180 400,170 400,300 0,300" fill="#8fbf6a"/>
+  <polygon points="80,230 92,230 92,242 80,242" fill="#d65d8a"/>
+  <polygon points="160,250 172,250 172,262 160,262" fill="#f2c14e"/>
+  <polygon points="260,225 272,225 272,237 260,237" fill="#7b6fd1"/>
+  <polygon points="320,260 332,260 332,272 320,272" fill="#d65d8a"/>
+</svg>

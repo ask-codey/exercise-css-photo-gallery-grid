@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- A drawing of a smooth granite dome above a forest, standing in for a photo. Free to use. -->
+  <rect width="400" height="300" fill="#a8d0e6"/>
+  <polygon points="60,240 120,110 200,80 280,110 340,240" fill="#c7c2b8"/>
+  <polygon points="0,300 0,230 50,200 100,230 150,205 200,235 250,205 300,230 350,200 400,230 400,300" fill="#2f5d3a"/>
+</svg>

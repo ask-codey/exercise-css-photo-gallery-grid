@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- A drawing of white aspen trunks with yellow leaves, standing in for a photo. Free to use. -->
+  <rect width="400" height="300" fill="#fbe7a1"/>
+  <polygon points="0,0 400,0 400,120 0,120" fill="#f2c14e"/>
+  <polygon points="60,300 60,60 80,60 80,300" fill="#f7f3e8"/>
+  <polygon points="170,300 170,40 192,40 192,300" fill="#f7f3e8"/>
+  <polygon points="290,300 290,70 310,70 310,300" fill="#f7f3e8"/>
+  <polygon points="0,270 400,260 400,300 0,300" fill="#b5a46a"/>
+</svg>

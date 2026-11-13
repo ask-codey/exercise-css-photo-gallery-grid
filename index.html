@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trail Photo Club: This Month's Photos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!--
+    Trail Photo Club's page. It's ready: you don't need to change this file.
+    Your work is in styles.css. The parts you'll lay out:
+      .page            the whole page: a header, a sidebar, the main content and a footer
+      .gallery         the trail photos, one of them .featured (the photo of the month)
+      .picks           the members' picks: four cards, each a .pick with a photo, a title, a caption and stats
+  -->
+  <div class="page">
+    <header>
+      <p class="logo">Trail Photo Club</p>
+      <nav>
+        <ul class="site-nav">
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#picks">Members' picks</a></li>
+          <li><a href="#hikes">Upcoming hikes</a></li>
+          <li><a href="#join">Join the club</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside id="hikes">
+      <h2>Upcoming hikes</h2>
+      <ul class="hike-list">
+        <li><strong>Sat, May 9</strong> Eagle Peak, 4.1 miles, steep</li>
+        <li><strong>Sun, May 17</strong> Long Lake Loop, 5.0 miles, gentle</li>
+        <li><strong>Sat, May 23</strong> Fern Gully, 2.8 miles, gentle</li>
+        <li><strong>Sat, June 6</strong> Granite Dome, 7.5 miles, hard</li>
+      </ul>
+      <p><a href="#join">Sign up for a hike</a></p>
+    </aside>
+
+    <main>
+      <h1>This month's trail photos</h1>
+
+      <section id="gallery">
+        <h2>The gallery</h2>
+        <div class="gallery">
+          <figure class="featured">
+            <img src="images/eagle-peak.svg" alt="The summit of Eagle Peak above a sea of clouds">
+            <figcaption>Photo of the month: Eagle Peak at sunrise</figcaption>
+          </figure>
+          <figure>
+            <img src="images/long-lake.svg" alt="Long Lake reflecting pine trees at sunrise">
+            <figcaption>Long Lake</figcaption>
+          </figure>
+          <figure>
+            <img src="images/fern-gully.svg" alt="A narrow trail through tall ferns">
+            <figcaption>Fern Gully</figcaption>
+          </figure>
+          <figure>
+            <img src="images/cedar-falls.svg" alt="Cedar Falls splashing into a green pool">
+            <figcaption>Cedar Falls</figcaption>
+          </figure>
+          <figure>
+            <img src="images/sunset-ridge.svg" alt="The ridge trail under an orange sunset">
+            <figcaption>Sunset Ridge</figcaption>
+          </figure>
+          <figure>
+            <img src="images/aspen-grove.svg" alt="White aspen trunks with yellow autumn leaves">
+            <figcaption>Aspen Grove</figcaption>
+          </figure>
+          <figure>
+            <img src="images/granite-dome.svg" alt="A smooth granite dome rising above the forest">
+            <figcaption>Granite Dome</figcaption>
+          </figure>
+          <figure>
+            <img src="images/misty-meadow.svg" alt="A meadow of wildflowers in the morning mist">
+            <figcaption>Misty Meadow</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="picks">
+        <h2>Members' picks</h2>
+        <div class="picks">
+          <article class="pick">
+            <img src="images/fern-gully.svg" alt="A narrow trail through tall ferns">
+            <h3>Fern Gully</h3>
+            <p>Cool and shady, even in August.</p>
+            <p class="stats">2.8 miles &middot; 300 ft climb</p>
+          </article>
+          <article class="pick">
+            <img src="images/long-lake.svg" alt="Long Lake reflecting pine trees at sunrise">
+            <h3>The Long Lake Loop and Waterfall Trail</h3>
+            <p>Five miles around the lake, three creek crossings, a picnic spot with a view, and Cedar Falls at the far end. Start early: the parking lot fills by nine on weekends.</p>
+            <p class="stats">5.0 miles &middot; 450 ft climb</p>
+          </article>
+          <article class="pick">
+            <img src="images/granite-dome.svg" alt="A smooth granite dome rising above the forest">
+            <h3>Granite Dome</h3>
+            <p>A long day with a big reward: the whole valley from the top. Bring plenty of water.</p>
+            <p class="stats">7.5 miles &middot; 2,100 ft climb</p>
+          </article>
+          <article class="pick">
+            <img src="images/aspen-grove.svg" alt="White aspen trunks with yellow autumn leaves">
+            <h3>Aspen Grove in the Fall</h3>
+            <p>Gold leaves in late September.</p>
+            <p class="stats">3.2 miles &middot; 600 ft climb</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer id="join">
+      <p>Trail Photo Club meets at the Pine Street trailhead. New hikers welcome, no fancy camera needed.</p>
+      <p>Photos are drawings, free to use.</p>
+    </footer>
+  </div>
+</body>
+</html>

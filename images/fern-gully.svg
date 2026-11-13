@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- A drawing of a narrow trail through tall ferns, standing in for a photo. Free to use. -->
+  <rect width="400" height="300" fill="#cfe3b8"/>
+  <polygon points="0,300 0,80 90,300" fill="#4f8a3c"/>
+  <polygon points="400,300 400,70 310,300" fill="#4f8a3c"/>
+  <polygon points="170,300 230,300 210,140 195,140" fill="#c9a46b"/>
+  <polygon points="60,300 120,120 150,300" fill="#6aa84f"/>
+  <polygon points="340,300 280,110 250,300" fill="#6aa84f"/>
+</svg>

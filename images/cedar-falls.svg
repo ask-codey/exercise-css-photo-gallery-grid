@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- A drawing of Cedar Falls splashing into a green pool, standing in for a photo. Free to use. -->
+  <rect width="400" height="300" fill="#b8d8c8"/>
+  <polygon points="0,300 0,40 160,40 160,300" fill="#6d5a46"/>
+  <polygon points="240,300 240,40 400,40 400,300" fill="#6d5a46"/>
+  <polygon points="160,40 240,40 235,240 165,240" fill="#e8f4fb"/>
+  <polygon points="100,240 300,240 330,300 70,300" fill="#3f8f7a"/>
+</svg>

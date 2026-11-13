@@ -1,0 +1,177 @@
+/*
+  Trail Photo Club: the stylesheet.
+
+  The look is ready: colors, fonts, the header's links in a row, and the captions on top of the photos.
+  Your job is the layout, in the four steps at the bottom of this file. The README says what each step needs.
+
+  Rules: no @media rules (the gallery should fit any width by itself), and keep index.html as it is.
+*/
+
+/* ---------- The look: ready to use ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1f2a24;
+  background: #f4f1ea;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+}
+
+a {
+  color: #2d6a4f;
+}
+
+.page > header,
+.page > aside,
+.page > main,
+.page > footer {
+  padding: 1rem 1.5rem;
+}
+
+/* The header: the club's name on the left, its links on the right (flexbox, one row). */
+.page > header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background: #2d6a4f;
+  color: #ffffff;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.page > aside {
+  background: #e3ece4;
+}
+
+.hike-list {
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.hike-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #c3d3c6;
+}
+
+.hike-list strong {
+  display: block;
+}
+
+.page > footer {
+  background: #1f2a24;
+  color: #e3ece4;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Every photo is as wide as its box. */
+img {
+  display: block;
+  width: 100%;
+}
+
+/* A gallery photo: the picture fills the whole cell, and its caption sits on top of it at the bottom.
+   object-fit: cover trims the picture's edges to fit the cell instead of stretching it. */
+.gallery figure {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: #c3d3c6;
+}
+
+.gallery img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery figcaption {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 0.5rem 0.75rem;
+  background: rgb(31 42 36 / 0.75);
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+/* A member's pick: a white card with rounded corners. */
+.pick {
+  padding: 0 0 1rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.15);
+}
+
+.pick img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.pick h3,
+.pick p {
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.pick .stats {
+  color: #52645a;
+  font-size: 0.9rem;
+}
+
+/* ---------- The layout: for you to finish ---------- */
+
+/* Step 1. The page: a header across the top, the sidebar and the main content side by side, a footer across the bottom. */
+.page {
+}
+
+/* Step 2. The gallery: as many columns as fit, each at least 14rem wide, with a gap and rows of one height. */
+.gallery {
+}
+
+/* Step 3. The photo of the month: two columns wide and two rows tall. */
+.featured {
+}
+
+/* Step 4. The members' picks: a grid of cards whose titles, captions and stats line up across each row. */
+.picks {
+}
+
+.pick {
+}
